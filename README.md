@@ -1,12 +1,48 @@
-# React + Vite
+# 🎮 ¿Quién es este Pokémon?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web interactiva inspirada en el anime Pokémon.  
+El objetivo es adivinar el nombre de un Pokémon viendo únicamente su silueta.  
+¡Pon a prueba tu conocimiento Pokémaniaco!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Características principales
 
-## Expanding the ESLint configuration
+- 🎲 Pokémon aleatorio de la Generación 1 (ID 1–151)
+- 👀 Silueta oculta con efecto `brightness(0)`
+- ⌨️ Input para escribir el nombre del Pokémon
+- ✅ Feedback en pantalla: correcto o incorrecto
+- 🔊 Sonidos para respuestas acertadas y fallidas
+- 🏆 Puntaje acumulado y contador de intentos
+- 📜 Historial de adivinanzas en tiempo real
+- 🌐 Nombres en español con PokéAPI
+- 🖼️ Animaciones suaves con Framer Motion
+- 🧩 Diseño responsive con Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Tecnologías utilizadas
+
+| Tecnología       | Uso principal                    |
+|------------------|----------------------------------|
+| [React](https://reactjs.org/)        | Framework principal de UI        |
+| [Vite](https://vitejs.dev/)          | Empaquetador moderno y rápido    |
+| [Tailwind CSS](https://tailwindcss.com/) | Estilos y diseño responsive      |
+| [Framer Motion](https://www.framer.com/motion/) | Animaciones de entrada/transición |
+| [PokéAPI](https://pokeapi.co/)       | Datos de Pokémon                 |
+| [Lucide React](https://lucide.dev/)  | Íconos SVG modernos              |
+
+---
+
+## 🚀 Instalación y ejecución local
+
+```bash
+# Clona el repositorio
+git clone https://github.com/TU_USUARIO/TU_REPO.git
+cd TU_REPO
+
+# Instala las dependencias
+npm install
+
+# Ejecuta el servidor de desarrollo
+npm run dev
