@@ -38,8 +38,8 @@ El objetivo es adivinar el nombre de un Pokémon viendo únicamente su silueta.
 
 ```bash
 # Clona el repositorio
-git clone https://github.com/TU_USUARIO/TU_REPO.git
-cd TU_REPO
+git clone https://github.com/EvilNightmare010/Pokemon-API.git
+cd Pokemon-API
 
 # Instala las dependencias
 npm install
